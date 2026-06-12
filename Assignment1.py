@@ -1,5 +1,5 @@
 # Program Name: Assignment1.py
-# Course: IT3883/Section XXX
+# Course: IT3883/Section 501
 # Student Name: Adrian Anderson
 # Assignment Number: Lab #1
 # Due Date: 06/12/2026
