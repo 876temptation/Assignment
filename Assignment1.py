@@ -38,13 +38,13 @@ while True:
         input_buffer = ""  # Reset buffer
         print("Input buffer cleared.")
 
-    # OPTION 3: DISPLAY INPUT BUFFER
+    # OPTION 3: DISPLAY CURRENT INPUT BUFFER
     elif choice == "3":
         print("\n--- Current Input Buffer ---")
         if input_buffer:
             print(input_buffer)
         else:
-            print("[Buffer is empty]")
+            print("Buffer is empty")
 
     # OPTION 4: END PROGRAM
     elif choice == "4":
