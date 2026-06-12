@@ -5,7 +5,7 @@
 # Due Date: 06/12/2026
 
 # Purpose: This allows the user to append text to an input buffer,clear the buffer, display the current buffer contents and exit the program.
-#   The program loops displays the menu until the user chooses to exit.
+#   The program loops and displays the menu until the user chooses to exit.
 #
 # Resources Used:
 #   1). Python documentation (input, loops, strings)
@@ -21,7 +21,7 @@ input_buffer = ""
 
 while True:
     # PRINT MENU WITH OPTIONS
-    print("\n----- TEXT BUFFER MENU ----\n1. Append data to the input buffer\n2. Clear the input buffer\n3. Display the input buffer\n4. Exit the program")
+    print("\n----- MAIN MENU ----\n1. Append data to the input buffer\n2. Clear the input buffer\n3. Display the input buffer\n4. Exit the program")
 
 
     # ASK USER TO INPUT CHOICE
@@ -40,11 +40,11 @@ while True:
 
     # OPTION 3: DISPLAY CURRENT INPUT BUFFER
     elif choice == "3":
-        print("\n--- Current Input Buffer ---")
+        print("\n--- CURRENT INPUT BUFFER ---")
         if input_buffer:
             print(input_buffer)
         else:
-            print("Buffer is empty")
+            print("The buffer is empty")
 
     # OPTION 4: END PROGRAM
     elif choice == "4":
