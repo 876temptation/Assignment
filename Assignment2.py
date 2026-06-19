@@ -1,7 +1,7 @@
 # Program Name: Assignment2.py
 # Course: IT3883/Section W01
 # Student Name: Adrian Anderson
-# Assignment Number: Lab #1
+# Assignment Number: #2
 # Due Date: 06/19/2026
 
 # Read the input file.
