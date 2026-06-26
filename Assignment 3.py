@@ -35,7 +35,7 @@ mpg_entry.grid(row=0, column=1, padx=10, pady=10)
 result = tk.StringVar()
 
 # Label for KM/L output
-tk.Label(window, text="Kilometers per Liter (Km/l):").grid(row=1, column=0, padx=10, pady=10)
+tk.Label(window, text="Kilometers per Liter (km/l):").grid(row=1, column=0, padx=10, pady=10)
 tk.Label(window, textvariable=result).grid(row=1, column=1, padx=10, pady=10)
 
 # Allows the conversion happens automatically as user types
